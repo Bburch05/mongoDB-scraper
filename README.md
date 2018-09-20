@@ -13,7 +13,7 @@ This full-stack app scrapes articles off of Kotaku's homepage and allows you to 
 # Viewing Instructions
 
 To view this app running you can either :
-- visit the [link](https://serene-island-71918.herokuapp.com/ "deployed page")
+- visit the [deployed page](https://serene-island-71918.herokuapp.com/ "deployed page")
 or
 - you can clone this repo onto your machine and npm install the required packages.
 
