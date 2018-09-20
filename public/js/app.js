@@ -36,7 +36,7 @@ $(document).on("click", ".post-btn", function(event){
   console.log(newComment)
 
   $.post("/articles/" + postingID, newComment, function(result){
-
+    window.location.reload();
   });
 
 });

@@ -1,6 +1,7 @@
 <div class="container">
   <div class="jumbotron">
-    <h1 class="display-3">Kotaku Scraper</h1>
+    <img class="img-fluid" src="/images/kotaku.png"/>
+    <h1 class="display-3">Scraper</h1>
     <p class="lead">Scraping Articles from <a href="https://www.kotaku.com">Kotaku.com</a></p>
   </div>
   <div class="row">
@@ -27,7 +28,7 @@
             <button class="post-comment btn btn-primary" data-id={{_id}}>Post Comment</button>
           </div>
           {{#each comments}}
-            <div class="offset-md-1 col-md-10 comment">
+            <div class="offset-md-1 col-md-11 comment">
               <p>{{body}}</p>
               <h6>by: {{user}}</h6>
             </div>
